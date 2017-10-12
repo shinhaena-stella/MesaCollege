@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Mesa College</string>
+    <string name="buttonCall">전화</string>
+    <string name="buttonWeb">웹 사이트</string>
+</resources>

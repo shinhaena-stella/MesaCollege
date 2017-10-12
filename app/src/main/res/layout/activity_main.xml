@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.cisc.mesacollege.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+
+        <TextView
+            android:id="@+id/textVeiwTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:text="@string/textVeiwTitle"
+            android:textSize="30sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_bias="0.466"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="603dp"
+            android:layout_height="667dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="95dp"
+            app:srcCompat="@drawable/mesa2"
+            tools:layout_editor_absoluteX="-72dp"
+            tools:layout_editor_absoluteY="-128dp" />
+
+        <Button
+            android:id="@+id/buttonWebsite"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/imageView"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="36dp"
+            android:layout_marginLeft="80dp"
+            android:layout_marginStart="80dp"
+            android:text="@string/buttonWeb"
+            tools:layout_editor_absoluteX="78dp"
+            tools:layout_editor_absoluteY="347dp" />
+
+        <Button
+            android:id="@+id/buttonCall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/buttonWebsite"
+            android:layout_alignBottom="@+id/buttonWebsite"
+            android:layout_marginLeft="58dp"
+            android:layout_marginStart="58dp"
+            android:layout_toEndOf="@+id/buttonWebsite"
+            android:layout_toRightOf="@+id/buttonWebsite"
+            android:text="@string/buttonCall"
+            tools:layout_editor_absoluteX="214dp"
+            tools:layout_editor_absoluteY="347dp" />
+
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

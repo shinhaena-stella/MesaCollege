@@ -1,0 +1,7 @@
+<resources>
+
+    <!-- Base application theme. -->
+
+    <style name="as3theme" parent="Theme.AppCompat.Light.NoActionBar" />
+
+</resources>
