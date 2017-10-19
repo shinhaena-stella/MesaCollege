@@ -38,7 +38,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                     Intent call;
                     call = new Intent(Intent.ACTION_DIAL);
                     call.setData(Uri.parse("tel:619-388-2600"));
-                    startActicity(call);
+                    startActivity(call);
                     break;
             }
         }
